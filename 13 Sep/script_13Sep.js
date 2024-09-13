@@ -1,0 +1,34 @@
+// Ex. 1 (Revision)
+// type sankhya = number
+// interface Point {
+//   x: sankhya;
+//   y: sankhya;
+// }
+// interface Square {
+//   a: Point;
+//   b: Point;
+//   c: Point;
+//   d: Point;
+// }
+// var sqr: Square = {
+//   a: { x: 2, y: 2 },
+//   b: { x: 4, y: 2 },
+//   c: { x: 4, y: 4 },
+//   d: { x: 2, y: 4 },
+// };
+//  Type Assertions:
+//  Type assertions are used to tell the compiler that you know better than it does.
+//  They are used to assert that a value is of a certain type.
+//  They are useful when you need to access a value of one type as if it were of another type.
+// Ex.1
+// var box: HTMLElement | null;
+// box = document.getElementById("myBox");
+// console.log(box);
+// Ex.2
+function display(p) {
+    for (var i = 0; i < 5; i++) {
+        console.log(p);
+    }
+}
+var p = document.querySelector("#box");
+display(p);
