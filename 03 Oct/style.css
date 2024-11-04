@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.signal {
+  height: 300px;
+  width: 100px;
+  background-color: black;
+  padding: 10px;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.light {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
+#red{
+    background-color: #ff000097;
+}
+#yellow{
+    background-color: #ffff007f;
+}
+#green{
+    background-color: #008000;
+}
